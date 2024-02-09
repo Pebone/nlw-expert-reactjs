@@ -49,7 +49,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
 
     if (!isSpeechRecognitionAPIAvailable) {
       toast.error(
-        "Infelizmente seu navegador não suporta a API de gravação de voz. Adicione usando texto!"
+        "Infelizmente seu navegador não suporta a API de gravação de voz. Para utilizar esta funcionalidade, é recomendado que utilize o Google Chrome ou Safari."
       );
       return;
     }
