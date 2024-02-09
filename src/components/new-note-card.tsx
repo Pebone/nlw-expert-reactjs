@@ -97,8 +97,8 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
           Adicionar nota
         </span>
         <p className="text-sm leading-6 text-slate-400">
-          Grave uma nota em áudio que será convertida para texto
-          automaticamente.
+          Grave uma nota em áudio, que será convertida para texto
+          automaticamente, ou adicione uma nota por texto.
         </p>
       </Dialog.Trigger>
 
@@ -124,7 +124,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
                   >
                     gravando uma nota
                   </button>{" "}
-                  em áudio ou se preferir{" "}
+                  em áudio ou, se preferir,{" "}
                   <button
                     type="button"
                     onClick={handleStartEditor}
